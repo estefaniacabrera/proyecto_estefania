@@ -1,0 +1,140 @@
+.promos {
+  background-color: rgb(170, 170, 170);
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.banner {
+  width: 100%;
+}
+
+.menu {
+  background-color: white;
+  height: 50px;
+  text-align: center;
+}
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+ul {
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+  padding: 0px;
+}
+.transicion {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  transition: all 1s;
+}
+.transicion:hover {
+  padding: 7px;
+  background-color: rgb(170, 170, 170);
+  border-radius: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.productosDestacados {
+  background-color: rgb(170, 170, 170);
+  border-top: solid rgb(255, 255, 255);
+  border-bottom: solid rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  grid-template-areas:
+    "destacados destacados destacados"
+    "foto1 foto2 foto3"
+    "foto4 foto5 foto6";
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+}
+.destacados {
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+  font-size: 50px;
+  grid-area: destacados;
+  text-align: center;
+}
+.foto1 {
+  grid-area: foto1;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.foto2 {
+  grid-area: foto2;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.foto3 {
+  grid-area: foto3;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.foto4 {
+  grid-area: foto4;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.foto5 {
+  grid-area: foto5;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.foto6 {
+  grid-area: foto6;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.categorias_productos {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.categorias {
+  font-family: "Libre Franklin", sans-serif;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+.seccion2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.iconos {
+  width: 150px;
+  height: 150px;
+}
+.iconos:hover {
+  transform: scale(1.5, 1.5);
+}
+footer {
+  display: block;
+  background-color: rgb(170, 170, 170);
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
