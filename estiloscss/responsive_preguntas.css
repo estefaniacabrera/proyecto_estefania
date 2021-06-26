@@ -11,9 +11,6 @@
   }
 }
 @media only screen and (max-width: 576px) {
-  ul {
-    font-size: 10px;
-  }
   h1 {
     font-size: 30px;
   }
@@ -28,9 +25,6 @@
 }
 @media only screen and (max-width: 320px) {
   .promoHeader {
-    font-size: 10px;
-  }
-  ul {
     font-size: 10px;
   }
   h1 {

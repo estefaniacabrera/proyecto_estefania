@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas Frecuentes</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="estiloscss/preguntas.css">
     <link rel="stylesheet" href="estiloscss/responsive_preguntas.css">
 </head>
+
 <body>
     <header>
         <div class="promos">
@@ -16,51 +21,110 @@
             <p class="promoHeader">ACA VAN LAS PROMOCIONES</p>
         </div>
         <div class="logo">
-            <img class="banner" src="imagenes/banner1.png" alt="Logo h1"> 
+            <img class="banner" src="imagenes/banner1.png" alt="Logo h1">
         </div>
     </header>
-    <div class="menu">
-        <nav>
-            <ul class="menu1">
-                <link rel="preconnect" href="https://fonts.gstatic.com">
-                <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap" rel="stylesheet">
-                <li><a href="index.html">INICIO</li></a>
-                <li><a href="productos.html">PRODUCTOS</li></a>
-                <li><a href="fundas.htm">FUNDAS Y MARCAS</li></a>
-                <li><a href="contacto.html">CONTACTO</li></a>
-                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</li></a>
-            </ul>
-        </nav>
-    </div> 
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+                aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="fundas.htm">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="preguntas.html">Preguntas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <div class="preguntas">
         <h1>Preguntas Frecuentes</h1>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
-            <h2>Pregunta 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-            <h2>Pregunta 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-            <h2>Pregunta 3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-            <h2>Pregunta 4</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-            <h2>Pregunta 5</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.</p>
-            <h2>Pregunta 6</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, nihil accusantium. Error aspernatur saepe eveniet velit ullam! Et, quibusdam animi asperiores quaerat eum tenetur error veniam, facilis distinctio modi dolorum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat aspernatur distinctio corrupti repudiandae, assumenda error esse, amet obcaecati hic illo ipsam nostrum, enim iusto atque voluptas at laborum doloremque.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, enim. Nisi ut nesciunt nihil dicta id reiciendis harum aperiam ipsa alias corporis voluptate, maiores exercitationem fuga corrupti beatae eum doloremque!</p>
+        <h2>Pregunta 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <h2>Pregunta 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <h2>Pregunta 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <h2>Pregunta 4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <h2>Pregunta 5</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae, pariatur non eos debitis
+            voluptatum veniam earum cumque modi consectetur aut, voluptates nobis ipsam id saepe, aliquid eius ab quam.
+        </p>
+        <h2>Pregunta 6</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, nihil accusantium. Error aspernatur saepe
+            eveniet velit ullam! Et, quibusdam animi asperiores quaerat eum tenetur error veniam, facilis distinctio
+            modi dolorum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat aspernatur distinctio corrupti
+            repudiandae, assumenda error esse, amet obcaecati hic illo ipsam nostrum, enim iusto atque voluptas at
+            laborum doloremque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, enim. Nisi ut nesciunt nihil dicta id
+            reiciendis harum aperiam ipsa alias corporis voluptate, maiores exercitationem fuga corrupti beatae eum
+            doloremque!</p>
     </div>
     <footer>ACA VA EL FOOTER</footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

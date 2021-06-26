@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H1 GOLF</title>
-    <link rel="stylesheet" href="estiloscss/estilo1.css" />
-    <link rel="stylesheet" href="estiloscss/responsive_estilo1.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H1 GOLF</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="estiloscss/estilo1.css" />
+  <link rel="stylesheet" href="estiloscss/responsive_estilo1.css" />
 </head>
 
 <body>
-    <header>
-        <div class="promos">
-            <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-            <p id="header">ACA VAN LAS PROMOCIONES</p>
-        </div>
-        <div class="logo">
-            <img class="banner" src="imagenes/banner1.png" alt="Logo h1"> 
-        </div>
-    </header>
-    <div class="menu">
-        <nav>
-            <ul class="menu1">
-                <link rel="preconnect" href="https://fonts.gstatic.com">
-                <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap" rel="stylesheet">
-                <li class="transicion"><a href="index.html">INICIO</li></a>
-                <li class="transicion"><a href="productos.html">PRODUCTOS</li></a>
-                <li class="transicion"><a href="fundas.htm">FUNDAS Y MARCAS</li></a>
-                <li class="transicion"><a href="contacto.html">CONTACTO</li></a>
-                <li class="transicion"><a href="preguntas.html">PREGUNTAS FRECUENTES</li></a>
-            </ul>
-        </nav>
-    </div> 
-    <section class="productosDestacados">
-            <h2 class="destacados">PRODUCTOS DESTACADOS</h2>
-            <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">    
-            <img class="foto1" src="imagenes/bolsa_golf.jpg" alt="bolsa_golf">
-            <img class="foto2" src="imagenes/drive.jpeg" alt="drives">
-            <img class="foto3" src="imagenes/guante_golf.jpg" alt="guante_golf">
-            <img class="foto4" src="imagenes/prov1.jpg" alt="pelotas-golf">
-            <img class="foto5" src="imagenes/zapatos_golf.jpg" alt="zapatos">
-            <img class="foto6" src="imagenes/hierros_golf.jpg" alt="hierros-golf">
+  <!--Header y Banner-->
+  <header>
+    <div class="promos">
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+      <p class="header1">ACA VAN LAS PROMOCIONES</p>
+    </div>
+    <div class="logo">
+      <img class="banner" src="imagenes/banner1.png" alt="Logo h1" />
+    </div>
+  </header>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+        aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarBasic">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="fundas.htm">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="preguntas.html">Preguntas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-    </section>
-    <section class="categorias_productos">
-        <h2 class="categorias">CATEGORIAS</h2>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
-        <div class="seccion2">    
-            <img class="iconos" src="imagenes/golf-bag.png" alt="bolsas">
-            <img class="iconos" src="imagenes/golf-ball.png" alt="pelotasGolf">
-            <img class="iconos" src="imagenes/shoe.png" alt="zapatosGolf">
-            <img class="iconos" src="imagenes/swing.png" alt="palosGolf">
-            <img class="iconos" src="imagenes/glove.png" alt="guante">
-        </div>
-    </section>
-    <footer>ACA VA EL FOOTER</footer>
-       
+  <!--Section con Grid-->
+  <section class="productosDestacados">
+    <h2 class="destacados">PRODUCTOS DESTACADOS</h2>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet" />
+    <img class="foto1" src="imagenes/bolsa_golf.jpg" alt="bolsa_golf" />
+    <img class="foto2" src="imagenes/drive.jpeg" alt="drives" />
+    <img class="foto3" src="imagenes/guante_golf.jpg" alt="guante_golf" />
+    <img class="foto4" src="imagenes/prov1.jpg" alt="pelotas-golf" />
+    <img class="foto5" src="imagenes/zapatos_golf.jpg" alt="zapatos" />
+    <img class="foto6" src="imagenes/hierros_golf.jpg" alt="hierros-golf" />
+  </section>
+  <section class="categorias_productos">
+    <h2 class="categorias">CATEGORIAS</h2>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet" />
+    <div class="seccion2">
+      <img class="iconos" src="imagenes/golf-bag.png" alt="bolsas" />
+      <img class="iconos" src="imagenes/golf-ball.png" alt="pelotasGolf" />
+      <img class="iconos" src="imagenes/shoe.png" alt="zapatosGolf" />
+      <img class="iconos" src="imagenes/swing.png" alt="palosGolf" />
+      <img class="iconos" src="imagenes/glove.png" alt="guante" />
+    </div>
+  </section>
 
-    
+  <footer>ACA VA EL FOOTER</footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
