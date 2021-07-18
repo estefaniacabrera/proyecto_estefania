@@ -2,7 +2,10 @@
   background-color: #aaaaaa;
   color: white;
   text-align: center;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+  margin-left: 0px; }
 
 .banner {
   width: 100%; }
@@ -29,7 +32,7 @@ a:hover {
   padding-right: 15px; }
 
 .destacados {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Bree Serif", serif;
   color: white;
   font-size: 50px;
   grid-area: destacados;
@@ -57,11 +60,12 @@ a:hover {
   grid-area: foto6; }
 
 .categorias_productos {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  margin-top: 60px;
   width: 100%; }
 
 .categorias {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Bree Serif", serif;
   color: black;
   font-size: 50px;
   text-align: center; }
@@ -80,9 +84,21 @@ a:hover {
 .iconos:hover {
   transform: scale(1.5, 1.5); }
 
-footer {
-  display: block;
-  background-color: #aaaaaa;
+.footer {
+  background: #aaaaaa;
   color: white;
-  text-align: center;
-  font-family: "Poppins", sans-serif; }
+  text-align: center; }
+  .footer .links ul {
+    list-style-type: none; }
+  .footer .links li a {
+    color: white;
+    transition: color .2s; }
+    .footer .links li a:hover {
+      text-decoration: none;
+      color: black; }
+  .footer .slogan {
+    padding-right: 35px; }
+  .footer .location {
+    margin: 0px; }
+  .footer .copyright p {
+    border-top: 1px solid white; }

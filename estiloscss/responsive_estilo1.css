@@ -22,9 +22,12 @@
     font-size: 15px;
   }
 }
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .header1 {
+    font-size: 13px;
+  }
 }
-*/
+
 @media only screen and (max-width: 576px) {
   .productosDestacados {
     grid-template-rows: 70px 1fr 1fr;

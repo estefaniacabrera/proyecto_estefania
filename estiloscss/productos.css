@@ -3,9 +3,8 @@
   color: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  width: 100%;
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 1rem;
+  margin-top: 0px;
   margin-left: 0px;
 }
 .banner {
@@ -20,41 +19,37 @@ a:hover{
   border-radius: 10px;
 }
 
-footer {
-  display: block;
-  background-color: rgb(170, 170, 170);
-  color: white;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  margin-top: 50px;
-}
 h1 {
   color: black;
   background-color: white;
   text-align: center;
   font-family: "Libre Franklin", sans-serif;
   font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+.col{
+  margin-bottom: 50px;
 }
-.productos {
-  display: inline-block;
-  width: 19%;
-  text-align: center;
-  border: solid black;
-}
-.iconos {
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin-top: 20px;
-}
-h2 {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-}
+
+
+.footer {
+  background: #aaaaaa;
+  color: white;
+  text-align: center; }
+  .footer .links ul {
+    list-style-type: none; }
+  .footer .links li a {
+    color: white;
+    transition: color .2s; }
+    .footer .links li a:hover {
+      text-decoration: none;
+      color: black; }
+  .footer .slogan {
+    padding-right: 35px; }
+  .footer .location p {
+    margin: 0px;
+  }
+  .footer .copyright p {
+    text-align: center;
+    border-top: 1px solid white; }
