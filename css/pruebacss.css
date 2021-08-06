@@ -23,9 +23,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px 1fr 1fr;
-  grid-template-areas: "destacados destacados destacados"
- "foto1 foto2 foto3"
- "foto4 foto5 foto6";
+  grid-template-areas: "destacados destacados destacados" "foto1 foto2 foto3" "foto4 foto5 foto6";
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   align-items: center;
@@ -137,9 +135,14 @@ a:hover {
 
 @media only screen and (max-width: 992px) {
   .promo {
-    font-size: 15px; }
+    font-size: 15px;
+    margin-bottom: 8px; }
+  .header1 {
+    margin-bottom: 8px; }
   .tituloPrincipal {
     font-size: 35px; }
+  .destacados {
+    font-size: 40px; }
   .categorias {
     font-size: 35px; }
   .titulos {
@@ -157,11 +160,16 @@ a:hover {
 
 @media only screen and (max-width: 576px) {
   .promos {
-    font-size: 10px; }
+    font-size: 10px;
+    margin-bottom: 5px; }
+  .header1 {
+    margin-bottom: 5px; }
   .tituloPrincipal {
     font-size: 30px; }
   .titulos {
     font-size: 20px; }
+  .destacados {
+    font-size: 30px; }
   .parrafo {
     margin-left: 40px;
     margin-right: 40px;
@@ -173,18 +181,27 @@ a:hover {
   .iconos {
     width: 60px;
     height: 60px; }
+  .footer .slogan {
+    padding-right: 0px; }
   .direccion {
     padding-top: 30px; }
+  .location-contacto {
+    margin-top: 20px; }
   footer {
     font-size: 13px; } }
 
 @media only screen and (max-width: 320px) {
   .promos {
-    font-size: 10px; }
+    font-size: 10px;
+    margin-bottom: 3px; }
+  .header1 {
+    margin-bottom: 3px; }
   .tituloPrincipal {
     font-size: 25px; }
   .titulos {
     font-size: 15px; }
+  .destacados {
+    font-size: 20px; }
   .productosDestacados {
     grid-template-rows: 40px 1fr 1fr; }
   .categorias {
@@ -196,7 +213,11 @@ a:hover {
   .iconos {
     width: 45px;
     height: 45px; }
+  .footer .slogan {
+    padding-right: 0px; }
   .direccion {
     padding-top: 30px; }
+  .location-contacto {
+    margin-top: 15px; }
   footer {
     font-size: 10px; } }
