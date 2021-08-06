@@ -1,7 +1,6 @@
 {
   "name": "entrega_clase_11",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/estefaniacabrera/proyecto_estefania#readme",
   "devDependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.7"
-  }
+    "nodemon": "^2.0.12"
+  },
+  "description": ""
 }
