@@ -77,6 +77,9 @@
     footer {
       font-size: 13px;
     }
+    .error{
+        font-size: 20px;
+    }
   }
   @media only screen and (max-width: 320px) {
     .promos {
@@ -121,5 +124,8 @@
     }
     footer {
       font-size: 10px;
+    }
+    .error{
+        font-size: 15px;
     }
   }

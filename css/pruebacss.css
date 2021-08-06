@@ -133,6 +133,12 @@ a:hover {
   .footer .copyright p {
     border-top: 1px solid white; }
 
+.error {
+  color: black;
+  font-size: 25px;
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center; }
+
 @media only screen and (max-width: 992px) {
   .promos {
     font-size: 17px;
@@ -188,7 +194,9 @@ a:hover {
   .location-contacto {
     margin-top: 20px; }
   footer {
-    font-size: 13px; } }
+    font-size: 13px; }
+  .error {
+    font-size: 20px; } }
 
 @media only screen and (max-width: 320px) {
   .promos {
@@ -220,4 +228,6 @@ a:hover {
   .location-contacto {
     margin-top: 15px; }
   footer {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .error {
+    font-size: 15px; } }
